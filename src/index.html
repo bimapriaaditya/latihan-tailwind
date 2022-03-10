@@ -8,16 +8,16 @@
   <link rel="stylesheet" href="/dist/bootstrap-icons/font/bootstrap-icons.css">
   <title>Document</title>
 </head>
-<body class="relative font-serif">
+<body class="relative font-sans">
   <header class="container mx-auto px-8 py-12">
     <div class="flex w-full">
       <div class="flex-1 text-center">
         <div>
-          <h3 class="text-2xl text-black font-bold">Lemburs</h3>
+          <h3 class="text-2xl text-black font-bold font-serif">Lemburs</h3>
         </div>
       </div>
       <div class="flex-2">
-        <ul class="flex w-full justify-center font-sans">
+        <ul class="flex w-full justify-center">
           <li class="mr-4 transition duration-500 border-b-2 border-transparent hover:border-orange-600 ">
             <a href="" class="p-2">Home</a>
           </li>
@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class="flex-1 text-center">
-        <div class="font-medium font-sans">
+        <div class="font-medium">
           <span class="mr-2">Log In</span>
           <i class="bi bi-person-circle text-xl"></i>
         </div>
@@ -44,25 +44,187 @@
     </div>
   </header>
   <div class="container mx-auto">
-    <div class="flex">
-      <div class="flex-1 w-full">
-        <div class="py-8 w-full h-full relative">
-          <div class="before:absolute before:top-0 before left-0 before:h-full before:w-full before:bg-slate-100 before:-z-10 before:-translate-x-1/2">
-            <img src="images/img_001.png" alt="main-image" class="object-cover w-full max-h-screen z-10">
+    <div class="mb-8">
+      <div class="flex">
+        <div class="flex-1 w-full">
+          <div class="py-8 w-full h-full relative">
+            <div class="before:absolute before:top-0 before left-0 before:h-full before:w-full before:bg-slate-100 before:-z-10 before:-translate-x-1/2">
+              <img src="images/img_001.png" alt="main-image" class="object-cover w-full max-h-screen z-10">
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 w-full flex items-center px-12">
+          <div>
+            <h1 class="text-5xl font-medium font-serif mb-6">
+              A Revolutionary <br> <span class="text-orange-500">Co-Working Space</span> To <br> Find The Best Innovations
+            </h1>
+            <p class="font-thin w-9/12 mb-12">
+              In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets
+            </p>
+            <div>
+              <a href="" class="bg-orange-500 py-3 px-8 text-white mr-4 hover:bg-orange-400 ease-out duration-300">Find Your Place</a>
+              <a href="" class="bg-white py-3 px-8 text-dark border border-black hover:bg-slate-800 hover:text-white ease-out duration-300">Contact</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="flex-1 w-full flex items-center px-12">
-        <div>
-          <h1 class="text-5xl font-medium mb-6">
-            A Revolutionary <br> <span class="text-orange-500">Co-Working Space</span> To <br> Find The Best Innovations
-          </h1>
-          <p class="font-thin font-sans w-9/12 mb-12">
-            In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets
-          </p>
+    </div>
+    <div class="mb-8">
+      <div class="mb-2">
+        <div class="grid grid-cols-3 pl-48">
           <div>
-            <a href="" class="bg-orange-500 py-3 px-8 text-white mr-4 font-sans">Find Your Place</a>
-            <a href="" class="bg-white py-3 px-8 text-dark border border-black font-sans">Contact</a>
+            <h3 class="text-4xl font-serif">Browse by Workspace</h3>
+          </div>
+          <div>
+            <p>
+              For companies of all sizes, WeWork provides global scale facilities and flexibility to help your business adapt to uncertainty. Find the right space for you.
+            </p>
+          </div>
+          <div class="m-auto">
+            <a href="" class="text-sky-500">
+              See More
+              <i class="bi bi-chevron-right pl-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-28">
+      <div class="flex flex-row flex-nowrap overflow-hidden relative">
+        <div class="controller z-10">
+          <button type="button" class="absolute top-1/2 left-8 w-12 h-12 rounded-full bg-white border border-slate-200 drop-shadow-lg flex">
+            <div class="m-auto">
+              <i class="bi bi-chevron-left text-2xl"></i>
+            </div>
+          </button>
+          <button type="button" class="absolute top-1/2 right-8 w-12 h-12 rounded-full bg-white border border-slate-200 drop-shadow-lg flex">
+            <div class="m-auto">
+              <i class="bi bi-chevron-right text-2xl"></i>
+            </div>
+          </button>
+        </div>
+        <div>
+          <div class="w-[325px] h-[250px] ml-48 group relative overflow-hidden">
+            <img src="images/img_002.png" alt="img_002" class="w-full h-full object-cover">
+            <div class="bg-zinc-700 absolute bottom-0 left-0 w-full h-full duration-500 ease-in-out translate-y-[calc(100%-55px)] group-hover:translate-y-0">
+              <div class="text-white py-3 px-5">
+                <div class="flex justify-between">
+                  <h6>Office Space</h6>
+                  <div>
+                    <i class="bi bi-people mr-1"></i>
+                    <small class="font-light">1-20+</small>
+                  </div>
+                </div>
+                <div class="text-center py-8">
+                  <small class="leading-5 block">
+                    a personal computer intended for general use at a location as opposed to a laptop or portable computer. ... This type of computer is designed to be placed and used on a desk in the home or office
+                  </small>
+                </div>
+                <a href="" class="absolute bottom-0 left-0 w-full py-3 px-3 bg-orange-600 text-white">
+                  <div class="flex justify-around align-center">
+                    <h4 class="text-lg leading-loose">More</h4>
+                    <i class="bi bi-arrow-right text-3xl"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="w-[325px] h-[250px] ml-8 group relative overflow-hidden">
+            <img src="images/img_003.png" alt="img_002" class="w-full h-full object-cover">
+            <div class="bg-zinc-700 absolute bottom-0 left-0 w-full h-full duration-500 ease-in-out translate-y-[calc(100%-55px)] group-hover:translate-y-0">
+              <div class="text-white py-3 px-5">
+                <div class="flex justify-between">
+                  <h6>Office Space</h6>
+                  <div>
+                    <i class="bi bi-people mr-1"></i>
+                    <small class="font-light">1-20+</small>
+                  </div>
+                </div>
+                <div class="text-center py-8">
+                  <small class="leading-5 block">
+                    a personal computer intended for general use at a location as opposed to a laptop or portable computer. ... This type of computer is designed to be placed and used on a desk in the home or office
+                  </small>
+                </div>
+                <a href="" class="absolute bottom-0 left-0 w-full py-3 px-3 bg-orange-600 text-white">
+                  <div class="flex justify-around align-center">
+                    <h4 class="text-lg leading-loose">More</h4>
+                    <i class="bi bi-arrow-right text-3xl"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="w-[325px] h-[250px] ml-8 group relative overflow-hidden">
+            <img src="images/img_004.png" alt="img_002" class="w-full h-full object-cover">
+            <div class="bg-zinc-700 absolute bottom-0 left-0 w-full h-full duration-500 ease-in-out translate-y-[calc(100%-55px)] group-hover:translate-y-0">
+              <div class="text-white py-3 px-5">
+                <div class="flex justify-between">
+                  <h6>Office Space</h6>
+                  <div>
+                    <i class="bi bi-people mr-1"></i>
+                    <small class="font-light">1-20+</small>
+                  </div>
+                </div>
+                <div class="text-center py-8">
+                  <small class="leading-5 block">
+                    a personal computer intended for general use at a location as opposed to a laptop or portable computer. ... This type of computer is designed to be placed and used on a desk in the home or office
+                  </small>
+                </div>
+                <a href="" class="absolute bottom-0 left-0 w-full py-3 px-3 bg-orange-600 text-white">
+                  <div class="flex justify-around align-center">
+                    <h4 class="text-lg leading-loose">More</h4>
+                    <i class="bi bi-arrow-right text-3xl"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="w-[325px] h-[250px] ml-8 group relative overflow-hidden">
+            <img src="images/img_002.png" alt="img_002" class="w-full h-full object-cover">
+            <div class="bg-zinc-700 absolute bottom-0 left-0 w-full h-full duration-500 ease-in-out translate-y-[calc(100%-55px)] group-hover:translate-y-0">
+              <div class="text-white py-3 px-5">
+                <div class="flex justify-between">
+                  <h6>Office Space</h6>
+                  <div>
+                    <i class="bi bi-people mr-1"></i>
+                    <small class="font-light">1-20+</small>
+                  </div>
+                </div>
+                <div class="text-center py-8">
+                  <small class="leading-5 block">
+                    a personal computer intended for general use at a location as opposed to a laptop or portable computer. ... This type of computer is designed to be placed and used on a desk in the home or office
+                  </small>
+                </div>
+                <a href="" class="absolute bottom-0 left-0 w-full py-3 px-3 bg-orange-600 text-white">
+                  <div class="flex justify-around align-center">
+                    <h4 class="text-lg leading-loose">More</h4>
+                    <i class="bi bi-arrow-right text-3xl"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-8">
+      <div class="mb-2">
+        <div class="grid grid-cols-2 pl-48">
+          <div>
+            <h3 class="text-4xl font-serif">
+              All Facilities Are Designed <br> To Meet All Your <span class="text-orange-500">Needs</span>
+            </h3>
+          </div>
+          <div class="px-12 my-auto">
+            <p class="text-gray-600 font-thin">
+              During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity
+            </p>
           </div>
         </div>
       </div>
